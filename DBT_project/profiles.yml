@@ -1,0 +1,13 @@
+answers:
+  outputs:
+    dev:
+      connect_timeout: 10
+      dbname: projectdb
+      host: localhost
+      pass: postgres
+      port: 5432
+      schema: stg
+      threads: 1
+      type: postgres
+      user: postgres
+  target: dev

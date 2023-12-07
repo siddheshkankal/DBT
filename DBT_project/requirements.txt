@@ -1,0 +1,2 @@
+# dbt-bigquery==1.6.1
+dbt-postgres

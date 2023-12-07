@@ -1,0 +1,14 @@
+dbt init
+
+dbt debug
+
+dbt debug --config-dir
+
+dbt deps
+
+dbt run
+
+dbt deps
+
+dbt clean
+

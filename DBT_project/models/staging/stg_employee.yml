@@ -1,0 +1,34 @@
+version: 2
+
+models:
+  - name: stg_employee
+    description: ""
+    columns:
+      - name: employee_id
+        description: ""
+        tests:
+          - not_null
+
+      - name: first_name
+        description: ""
+
+      - name: last_name
+        description: ""
+
+      - name: email
+        description: ""
+
+      - name: hire_date
+        description: ""
+
+      - name: department
+        description: ""
+
+      - name: gender
+        description: ""
+
+      - name: salary
+        description: ""
+
+      - name: region_id
+        description: ""

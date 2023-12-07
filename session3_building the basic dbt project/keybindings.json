@@ -1,0 +1,21 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+'",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "ctrl+right",
+        "command": "workbench.action.splitEditorToRightGroup"
+	},
+	{
+		"key": "shift+cmd+'",
+		"command": "dbtPowerUser.executeSQL",
+		"when": "editorFocus && resourceLangId =~ /^sql$|^jinja-sql$/"
+	},
+	{
+		"key": "cmd+enter",
+		"command": "-dbtPowerUser.executeSQL",
+		"when": "editorFocus && resourceLangId =~ /^sql$|^jinja-sql$/"
+	}
+]
